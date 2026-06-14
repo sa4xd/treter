@@ -3,8 +3,7 @@ name: Keepalive Python
 on:
   workflow_dispatch:
   schedule:
-   - cron: '0 0,6,8,9,10 * * *'
-   
+    - cron: '12 8,9,10,14,18 * * *' # 建议顺便把分钟改成 12，避开整点拥堵
 
     
     
